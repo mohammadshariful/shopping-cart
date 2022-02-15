@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome includes -->
+   <script src="https://kit.fontawesome.com/31b1cf5ca4.js" crossorigin="anonymous"></script>
+    <title>shopping cart</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <section class="menu">
+          <div>
+            <h1>19:00</h1>
+          </div>
+          <div>
+            <span><i class="fas fa-signal"></i></span>
+            <span><i class="fas fa-wifi"></i></span>
+            <span><i class="fas fa-battery-full"></i></span>
+          </div>
+        </section>
+        <section class="header-content">
+          <div>
+            <span><i class="fas fa-arrow-left"></i></i></span>
+          </div>
+          <div>
+              <h1>Shopping Cart</h1>
+          </div>
+          <div class="cart-logo">
+             <img src="./img/cart-shopping-solid.svg" alt="">
+              <span class="cart-notify">3</span>
+          </div>
+        </section>
+      </header>
+      <div class="items">
+          <h3>3</h3>
+      </div>
+      <section class="product-list">
+       <article class="products">
+           <div class="product">
+               <img src="./img/nike.jpg" alt="">
+               <div class="product-description">
+                   <h4>Nike</h4>
+                   <p>superstar</p>
+                   <p class="rating">8.5</p>
+               </div>
+           </div>
+           <div class="input-button">
+               <button type="button">-</button>
+               <input type="text" value="1">
+               <button type="button">+</button>
+           </div>
+           <h2>$<span class="nike-prices">2239</span></h2>
+       </article>
+       <hr>
+       <article class="products">
+           <div class="product">
+               <img src="./img/t-shirt.jpg" alt="">
+               <div class="product-description">
+                   <h4>H&M</h4>
+                   <p>T-Shirt</p>
+                   <p class="rating">S</p>
+               </div>
+           </div>
+           <div class="input-button">
+               <button type="button">-</button>
+               <input type="text" value="1">
+               <button type="button">+</button>
+           </div>
+           <h2>$<span class="nike-prices">1499</span></h2>
+       </article>
+       <hr>
+       <article class="products">
+           <div class="product">
+               <img src="./img/gucci.jpg" alt="">
+               <div class="product-description">
+                   <h4>Gucci</h4>
+                   <p>CG Marmont</p>
+                   <p class="rating">8.5</p>
+               </div>
+           </div>
+           <div class="input-button">
+               <button type="button">-</button>
+               <input type="text" value="1">
+               <button type="button">+</button>
+           </div>
+           <h2>$<span class="nike-prices">1850</span></h2>
+       </article>
+       <hr>
+      </section>
+      <section class="free-shipping">
+          <h3>1 year free shipping for only $14,00</h3>
+          <a class="cart-btn" href="#">Add To Bag</a>
+      </section>
+      <section id="checkout">
+          <div class="checkout-container">
+            <div class="sub-Total prices">
+                <h3>Sub Total</h3>
+                <h1>$<span id="sub-total">5588</span> </h1>
+            </div>
+            <div class="shipping prices">
+                 <h3>Shipping</h3>
+                <h1>$<span id="shipping">00</span></h1>
+            </div >
+            <div class="grand-total prices">
+                <h3>Total</h3>
+                <h1>$<span id="total">5588</span></h1>
+            </div>
+          </div>
+          <div class="checkout-button">
+          <a class="cart-btn" href="#">Checkout</a>
+          </div>
+      </section>
+    </main>
+    <!-- script file includes -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
