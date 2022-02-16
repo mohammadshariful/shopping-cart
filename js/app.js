@@ -71,7 +71,7 @@ function updateTotal() {
   const totalPrice =
     parseInt(nikeTotal) + parseInt(clothTotal) + parseInt(gucciTotal);
   subTotal.innerText = totalPrice;
-  let shippingPrice = parseInt(totalPrice) * 0.02;
+  let shippingPrice = parseInt(totalPrice) * 0.2;
   shippinTotal.innerText = shippingPrice.toFixed(2);
   grandTotal.innerText = parseInt(totalPrice + shippingPrice);
 }
